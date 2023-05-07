@@ -1,0 +1,21 @@
+{
+  "appenders": {
+    "file": {
+      "type": "file",
+      "filename": "logs/application.log",
+    },
+    "console": {
+      "type": "console",
+      "pattern": "-yyyy-MM-dd"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "file",
+        "console"
+      ],
+      "level": "debug"
+    }
+  }
+}

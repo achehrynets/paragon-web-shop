@@ -2,7 +2,7 @@
   "appenders": {
     "file": {
       "type": "file",
-      "filename": "logs/application.log",
+      "filename": "logs/application.log"
     },
     "console": {
       "type": "console",
